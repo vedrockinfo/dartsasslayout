@@ -1,0 +1,14 @@
+@use "../abstract" as *;
+@use "sass:color";
+
+.half{
+    width: half($container);
+}
+.oneThird{
+    width: oneThird($container);
+}
+.oneFourth{
+    width: oneFourth($container);
+    background: color.adjust($colorPrimary, $lightness:-20%);
+}
+

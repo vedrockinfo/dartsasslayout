@@ -1,0 +1,24 @@
+{
+  "name": "dartsasslayout",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass sass/main.scss assets/css/style.min.css --style=compressed --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vedrockinfo/dartsasslayout.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/vedrockinfo/dartsasslayout/issues"
+  },
+  "homepage": "https://github.com/vedrockinfo/dartsasslayout#readme",
+  "dependencies": {
+    "sass": "^1.97.0"
+  }
+}

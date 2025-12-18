@@ -1,0 +1,75 @@
+@use "./variables" as *;
+
+
+// Inbuild Function in SASS 
+
+// 1] Numbers 
+// ---------------------------------------------
+// abs() negative value hta kr absolut value, 
+// ceil() upar vali value, 
+// floor() neeche vali value return,
+// round() roundFigure nearest value,
+// max() maximum value from the multiple values,
+// min() just reverse of max,
+// percentage() percentage of the value dega
+// comparable() value comparing or not value in true or false
+// random() give random value
+// unit() just give the unit from the value
+// unitless() return true or false
+// -----------------------------------------------
+
+// 2] Strings ||||
+// --------------------------------------------------
+// quote() quotes laga dega like font family
+// str-index() now index of the char
+// str-insert() insert the char it have 3 parameter
+// str-length() length of the string
+// str-slice() pick the string from the index position 2 parameter
+// to-upper-case()
+// to-lower-case()
+// unique-id() 9 char ka hoga isme koi value nahi pass ki jati by default ever time id assign krta h
+// unquote()
+// --------------------------------------------------
+
+// 3] Colors ||||
+
+// -----------------------------------------------------
+// lighten()
+// darken()
+// adjust-hue()
+// saturate() brightness
+// desaturate()
+// mix()
+// transertize() 
+// And many more function
+// -----------------------------------------------------
+// 4] Lists ||||
+
+// -------------------------------------------------------
+// length() count the multiple values
+// nth()
+// set-nth()
+// join()
+// append()
+// zip()
+// index()
+// list-seprator()
+// is-bracketed()
+// -------------------------------------------------------
+// 5] Selectors ||||
+// 6] Introspection ||||
+
+
+$container : $containerWidth;
+
+@function half($colWidth){
+    @return calc($colWidth / 2);
+}
+
+@function oneThird($colWidth){
+    @return calc($colWidth / 3);
+}
+
+@function oneFourth($colWidth){
+    @return calc($colWidth / 4)
+}
